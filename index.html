@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Asterra - ванильный фэнтези Minecraft сервер</title>
+    <meta name="description" content="Asterra — уютный сервер Minecraft с добрым комьюнити. Стабильные TPS, свобода выбора, приключения и политика. Начни свою историю сегодня!">
+    <meta name="keywords" content="Minecraft, сервер, ваниль, фэнтези, комьюнити, выживание, приключения, RPG, Астерра, играть">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://asterra-site.com">
+
+
+    <meta property="og:title" content="Asterra — ванильный фэнтези Minecraft сервер">
+    <meta property="og:description" content="Уютный сервер с заботливым комьюнити. Ты сам создаёшь свою историю в мире Asterra.">
+    <meta property="og:image" content="https://asterra-site.comimages/og-image.jpg">
+    <meta property="og:url" content="https://asterra-site.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Asterra">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Asterra — ванильный фэнтези Minecraft сервер">
+    <meta name="twitter:description" content="Уютный сервер с заботливым комьюнити.">
+    <meta name="twitter:image" content="https://asterra-site.comimages/og-image.jpg">
+
+
+    <meta name="theme-color" content="#1D5CA6">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Asterra",
+      "description": "Уютный фэнтези сервер Minecraft с заботливым комьюнити и доброй атмосферой. Игроки сами создают свою историю — торговля, войны, приключения, политика.",
+      "url": "https://asterra-site.com",
+      "gamePlatform": "PC",
+      "operatingSystem": "Windows, macOS, Linux",
+      "applicationCategory": "Game",
+      "genre": "Sandbox, RPG, Adventure",
+      "gameEdition": "Vanilla Minecraft 1.20+",
+      "author": {
+        "@type": "Organization",
+        "name": "Asterra Team"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "124"
+      }
+    }
+    </script>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://asterra-site.com"
+        }
+      ]
+    }
+    </script>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://asterra-site.com",
+      "name": "Asterra",
+      "description": "Ванильный Minecraft-сервер с фэнтези-атмосферой",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://asterra-site.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+    <header>
+        <div class="nav-container glass" role="navigation" aria-label="Главное меню">
+            <a href="index.html" class="logo-wrapper" aria-label="На главную">
+                <img src="images/logo.png" alt="Логотип Asterra — буква A в виде звезды" class="logo-img" width="50" height="50">
+            </a>
+            <nav class="nav-links" aria-label="Навигация по сайту">
+                <a href="index.html" class="nav-link active" aria-current="page">Главная</a>
+                <a href="description.html" class="nav-link">Описание</a>
+                <a href="rules.html" class="nav-link">Правила</a>
+            </nav>
+            <a href="https://discord.gg/XweX99nHAn" class="discord-btn" aria-label="Присоединиться к Discord">
+                <span>Discord</span>
+                <div class="icon">
+                    <img src="images/dc-icon.svg" alt="Иконка Discord" class="icon-img" width="24" height="24">
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Главный баннер Asterra">
+            <!-- Фон с изображением мира -->
+            <div class="hero-bg" style="background-image: url('images/hero-bg.jpg');" role="img" aria-label="Фон с горами и замком из мира Asterra"></div>
+
+            <!-- Твои облака (уже вставлены) -->
+            <img src="images/clouds.png" alt="Декоративные облака, перекрывающие заголовок" class="clouds-overlay" style="position:absolute; top:0; left:0; width:100%; height:auto; pointer-events:none; z-index:11;" loading="lazy">
+
+            <div class="hero-content">
+                <h1 class="main-title">Asterra</h1>
+                <p class="subtitle">Уютный фэнтези сервер с заботливым<br>комьюнити и доброй атмосферой</p>
+
+                <button class="cta-button" onclick="copyIP()" aria-label="Скопировать IP-адрес сервера">
+                    Начать играть
+                    <div class="icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <section class="features" id="features-section" aria-label="Ключевые особенности сервера">
+            <h2 class="features-title">Здесь нет готовой истории.<br>Ты сам создаёшь свой путь.</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-number" aria-hidden="true">1</div>
+                    <h3 class="feature-title">Стабильность</h3>
+                    <p class="feature-desc">Мощный хостинг, стабильные TPS и низкий пинг - игра идёт плавно, без лагов и просадок.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-number" aria-hidden="true">2</div>
+                    <h3 class="feature-title">Свобода выбора</h3>
+                    <p class="feature-desc">Ты сам решаешь, кем стать. Торговля, войны, приключения, политика - ты выбираешь свой путь. Астерра даёт тебе мир, а историю создаёшь ты сам.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="sticky-footer" role="contentinfo">
+        <div class="footer-content">
+            <a href="index.html" class="footer-logo" aria-label="На главную">
+                <img src="images/logo.png" alt="Логотип Asterra" class="footer-logo-img" width="40" height="40">
+                <span>Asterra</span>
+            </a>
+            <nav class="footer-nav" aria-label="Навигация в подвале">
+                <a href="index.html">Главная</a>
+                <a href="description.html">Описание</a>
+                <a href="rules.html">Правила</a>
+            </nav>
+            <div class="footer-socials">
+                <a href="https://discord.gg/XweX99nHAn" class="social-icon" aria-label="Наш Discord">
+                    <img src="images/dc-icon.svg" alt="Discord" width="28" height="28">
+                </a>
+                <a href="https://t.me/imtrensi" class="social-icon" aria-label="Наш Telegram">
+                    <img src="images/tg-icon.svg" alt="Telegram" width="28" height="28">
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 Asterra. Не связано с Mojang AB.
+        </div>
+    </footer>
+
+    <!-- Скрипт загружается с defer (не блокирует загрузку страницы) -->
+    <script src="script.js" defer></script>
+</body>
+</html>
